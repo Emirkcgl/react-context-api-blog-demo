@@ -173,7 +173,7 @@ const Archive = memo(function Archive({ archiveOptions }) {
 
     return (
         <aside>
-            <h2>Post archive</h2>
+            <h2>{archiveOptions.title}</h2>
             <button onClick={() => setShowArchive((s) => !s)}>
                 {showArchive ? "Hide archive posts" : "Show archive posts"}
             </button>
